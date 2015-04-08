@@ -1,5 +1,6 @@
 #ifndef UTF8_H
 #define UTF8_H
+#include <stdint.h>
 
 typedef struct {
     uint32_t history[UINT16_MAX + 1];
